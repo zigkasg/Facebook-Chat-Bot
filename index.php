@@ -5,8 +5,8 @@
  * Date: 24/04/16
  * Time: 3:26 PM
  */
-$access_token = "EAAH5qCyWCdcBAP0ddTZBNbVRdmqd43TZCnBJGFEwRZAmO76hlrXfWmVzBXO5xEsochEnlrQ88Tkrwm2B63KzXctLxXQ8RU6KKM9sWEFsGZAaBzmmMUoqVjfir1n5ufXgW8btvZAL41bNJ5S0IceHKUCioOLTqCLZCZCOOMlNz5fRAZDZD";
-$verify_token = "fb_time_bot";
+$access_token = "EAAFdZAPv0XKsBACVIr8OeSiuMduLQCFayO9U7nEZAGn1ZBO1zzvdXxJ5j3j0ISb6UZAC0HuKlg97dAZAl5mRq3vj1MCRaZCJQmYvUu0TuclhOK67Fs8MHZAOfDUjMZCKLQkgaL5VC1F8TBz9y2Viwcmh6bA5rtUg5ydCC3GOhO7m3gZDZD";
+$verify_token = "test";
 $hub_verify_token = null;
 
 if(isset($_REQUEST['hub_challenge'])) {
