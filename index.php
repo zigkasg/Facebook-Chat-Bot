@@ -59,19 +59,7 @@ $jsonData = '{
 }';
 
 
-$jsonData = '{
-  "recipient":{
-    "id":"'.$sender.'"
-  },
-  "message":{
-    "attachment":{
-      "type":"video",
-      "payload":{
-        "url":"https://petersapparel.com/bin/clip.mp4"
-      }
-    }
-  }
-}';
+
 
 /*
 $jsonData = '{
