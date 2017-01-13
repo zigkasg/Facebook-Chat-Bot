@@ -61,7 +61,7 @@ $jsonData = '{
 
 $jsonData='{
   "recipient":{
-    "id":"RECIPIENT_ID"
+    "id":"'.$sender.'"
   }, "message": {
     "attachment": {
         "type": "template",
