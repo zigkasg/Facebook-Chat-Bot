@@ -49,13 +49,27 @@ $url = 'https://graph.facebook.com/v2.6/me/messages?access_token='.$access_token
 $ch = curl_init($url);
 
 //The JSON data.
+//$jsonData = '{
+//    "recipient":{
+//        "id":"'.$sender.'"
+ //   },
+ //   "message":{
+ //       "text":"'.$message_to_reply.'"
+ //   }
+//}';
+
 $jsonData = '{
-    "recipient":{
-        "id":"'.$sender.'"
-    },
-    "message":{
-        "text":"'.$message_to_reply.'"
+  "recipient":{
+    "id":"'.$sender.'"
+  },
+  "message":{
+    "attachment":{
+      "type":"image",
+      "payload":{
+        "url":"https://petersapparel.com/img/shirt.png"
+      }
     }
+  }
 }';
 
 //Encode the array into JSON.
