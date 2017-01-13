@@ -59,7 +59,7 @@ $jsonData = '{
 }';
 
 
-$jsonData = ''{
+$jsonData = '{
   "recipient":{
     "id":"'.$sender.'"
   },
@@ -71,7 +71,7 @@ $jsonData = ''{
       }
     }
   }
-}'';
+}';
 
 /*
 $jsonData = '{
