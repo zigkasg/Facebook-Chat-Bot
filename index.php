@@ -75,29 +75,29 @@ $jsonData = '{
         "timestamp":"1428444852", 
         "elements":[
           {
-            "title":"Classic White T-Shirt",
-            "subtitle":"100% Soft and Luxurious Cotton",
+            "title":"President profile",
+            "subtitle":"100% Aluminium",
             "quantity":2,
             "price":50,
-            "currency":"USD",
-            "image_url":"http://petersapparel.parseapp.com/img/whiteshirt.png"
+            "currency":"NOK",
+            "image_url":"http://www.garderobemannen.no/var/garderobemannen/storage/images/garderobemannen/skyvedoerer/undersider-profiler/president/1776-24-nor-NO/PRESIDENT.jpg"
           },
           {
-            "title":"Classic Gray T-Shirt",
-            "subtitle":"100% Soft and Luxurious Cotton",
+            "title":"Venus Frame",
+            "subtitle":"Grey - 80% Aluminium",
             "quantity":1,
             "price":25,
-            "currency":"USD",
-            "image_url":"http://petersapparel.parseapp.com/img/grayshirt.png"
+            "currency":"NOK",
+            "image_url":"http://www.garderobemannen.no/var/garderobemannen/storage/images/garderobemannen/skyvedoerer/undersider-profiler/venus/1793-24-nor-NO/VENUS.jpg"
           }
         ],
         "address":{
-          "street_1":"1 Hacker Way",
+          "street_1":"3-5 Agiou Athanasiou",
           "street_2":"",
-          "city":"Menlo Park",
-          "postal_code":"94025",
+          "city":"Paphos",
+          "postal_code":"8250",
           "state":"CA",
-          "country":"US"
+          "country":"Norway"
         },
         "summary":{
           "subtotal":75.00,
