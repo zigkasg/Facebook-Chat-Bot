@@ -59,7 +59,19 @@ $jsonData = '{
 }';
 
 
-
+$jsonData = ''{
+  "recipient":{
+    "id":"'.$sender.'"
+  },
+  "message":{
+    "attachment":{
+      "type":"image",
+      "payload":{
+        "url":"https://petersapparel.com/img/shirt.png"
+      }
+    }
+  }
+}'';
 
 /*
 $jsonData = '{
