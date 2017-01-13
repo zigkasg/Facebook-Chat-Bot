@@ -65,9 +65,9 @@ $jsonData = '{
   },
   "message":{
     "attachment":{
-      "type":"image",
+      "type":"video",
       "payload":{
-        "url":"https://petersapparel.com/img/shirt.png"
+        "url":"https://petersapparel.com/bin/clip.mp4"
       }
     }
   }
