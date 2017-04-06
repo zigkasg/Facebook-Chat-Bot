@@ -5,7 +5,7 @@
  * Date: 24/04/16
  * Time: 3:26 PM
  */
-$access_token = "EAADU14lUe40BACAXwsFRcSXL829DrWtuD450vROnrq4pDvTz2SAMxBQQRBzLTL8mTVOyBJYetRYLoZB5xIx21epHHRuOEwdW1VnZBeZBf8QnoPaOdbxYAjE9I7miUE6EEBaSZAdcFoFdVGY36m1rSYEoTKB9XozRtt5vCKw0IwZDZD";
+$access_token = "EAADU14lUe40BAEYkkTZAYab2ZBQOAms8EkItK1ZCaeXSyw8z9kaljxp4F1vT7KiAZBRsMkRVoAWpZAZB3JyTrtB9gN0k0lbSsXuEOtVjRnjIt4Tsjfb2OthtjfvCbBf15yNnDNWdAevpn0aV0ZC8q2fdctx0ScucczCPseoS2C8MwZDZD";
 $verify_token = "test";
 $hub_verify_token = null;
 
