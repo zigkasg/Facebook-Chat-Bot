@@ -20,7 +20,7 @@ if ($hub_verify_token === $verify_token) {
 }
 
 $input = json_decode(file_get_contents('php://input'), true);
-
+file_get_contents('http://onleave.online/rnd/save.php?context=test'.$input);
 $sender = $input['entry'][0]['messaging'][0]['sender']['id'];
 $message = $input['entry'][0]['messaging'][0]['message']['text'];
 
