@@ -17,6 +17,7 @@ if(isset($_REQUEST['hub_challenge'])) {
 
 if ($hub_verify_token === $verify_token) {
     echo $challenge;
+    return;
 }
 
 $input = json_decode(file_get_contents('php://input'), true);
