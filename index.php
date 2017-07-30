@@ -21,6 +21,6 @@ if ($hub_verify_token === $verify_token) {
 }
 
 $input = json_decode(file_get_contents('php://input'), true);
-file_get_contents('https://onleave.online/assets/php/v1/chatBot?context='.json_encode($input));
+file_get_contents('https://www.onleave.online/assets/php/v1/chatBot?context='.json_encode($input));
 echo json_encode($input);
 ?>
