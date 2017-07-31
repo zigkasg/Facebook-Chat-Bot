@@ -21,7 +21,7 @@ if ($hub_verify_token === $verify_token) {
 }
 
 
-$input = json_decode(file_get_contents('php://input'), true);
+$input = file_get_contents('php://input');
 error_log("------------------");
 error_log($input);
 error_log("------------------");
