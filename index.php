@@ -23,19 +23,11 @@ if ($hub_verify_token === $verify_token) {
 //$input = json_decode(file_get_contents('php://input'), true);
 //file_get_contents('https://www.onleave.online/assets/php/v1/chatBot?context='.json_encode($input));
 $url = 'https://www.onleave.online/assets/php/v1/chatBotWebhook';
-$data = json_encode($input);
-
-// use key 'http' even if you send the request to https://...
-$options = array(
-    'http' => array(
-        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-        'method'  => 'POST',
-        'content' => $data
-    )
-);
-$context  = stream_context_create($options);
-$result = file_get_contents($url, false, $context);
-if ($result === FALSE) { /* Handle error */ }
-
-var_dump($result);
+$curl = curl_init($url);
+    curl_setopt($curl, CURLOPT_POST, true);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query(json_encode($input)));
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    $response = curl_exec($curl);
+    curl_close($curl);
+    print_r($response);
 ?>
