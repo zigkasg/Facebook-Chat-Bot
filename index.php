@@ -25,7 +25,7 @@ $input = json_decode(file_get_contents('php://input'), true);
 $url = 'https://www.onleave.online/assets/php/v1/chatBotWebhook';
 $curl = curl_init($url);
     curl_setopt($curl, CURLOPT_POST, true);
-    curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($input));
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $input);
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($curl);
     curl_close($curl);
