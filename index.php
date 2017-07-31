@@ -21,8 +21,8 @@ if ($hub_verify_token === $verify_token) {
 }
 
 echo "test";
-//$input = json_decode(file_get_contents('php://input'), true);
-//print_r($input);
+$input = json_decode(file_get_contents('php://input'), true);
+print_r($input);
 //file_get_contents('https://www.onleave.online/assets/php/v1/chatBot?context='.json_encode($input));
 $url = 'https://www.onleave.online/assets/php/v1/chatBotWebhook';
 $curl = curl_init($url);
